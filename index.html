@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dona de Mim</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- BARRA DE NAVEGAÇÃO FIXA COM MENU -->
+    <nav>
+        <div class="logo">Dona de Mim</div>
+
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#noticias">Novidades</a>
+            <a href="#destaques">Biquínis</a>
+        </div>
+
+        <!-- Menu responsivo -->
+         <div id="burger" class="drop-menu" onclick="clickMenu()">
+            <div class="drop-button">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </div>
+
+            <!-- Conteudo do submenu -->
+            <div id="burgerList" class="drop-content">
+                <a href="#">Inicio</a>
+                <a href="#noticias">Novidades</a>
+                <a href="#destaques">Biquínis</a>
+            </div>
+         </div>
+    </nav>
+     <!-- BANNER E CALENDARIO DE JOGOS -->
+    <header>
+        <div class="titulo">
+            
+        </div>
+
+        <div class="booking">
+            <div class="rede-social2">
+                <a href="https://www.instagram.com/_doonademim/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://wa.me/5588996709293" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+            <!-- <form id="form1">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome">
+                </div>
+
+                <div>
+                    <label for="mora">Onde você mora ?</label>
+                    <input type="text" id="mora" name="mora">
+                </div>
+
+                <button id="btnSalvar" type="button">Enviar</button>
+            </form> -->
+        </div>
+    </header>
+      <!-- NOTICIAS -->
+       <section class="noticias" id="noticias">
+        <div class="info-noticias">
+            <h1>Chegou Novidades</h1>
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sapiente eius sint esse vitae mollitia ad debitis id, temporibus sed voluptatibus officiis assumenda eligendi blanditiis placeat ipsum obcaecati numquam. Maxime!</p>
+
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="fotos-noticias">
+            <div class="foto">
+                <img src="imagem/SaveClip.App_431563336_773480110942347_3575241320206564903_n.jpg" alt="prefeitura">
+            </div>
+
+            <div class="foto">
+                <img src="imagem/SaveClip.App_460698889_2882799365203371_4622851532533125746_n.jpg" alt="flamenguinho">
+            </div>
+
+            <div class="foto">
+                <img src="imagem/SaveClip.App_467196545_911771567552469_2178473818010032171_n.jpg" alt="lopeu">
+            </div>
+            
+            <div class="foto">
+                <img src="imagem/img 1.jpg" alt="sao paulo">
+            </div>
+        </div>
+       </section>
+
+       <!-- DESTAQUES -->
+        <section class="destaques" id="destaques">
+            <h1>Biquínis</h1>
+
+            <div class="grupo-destaques">
+
+                <!-- Destaque 1 --> 
+                 <div class="card-destaque">
+                    <img src="imagem/SaveClip.App_431563336_773480110942347_3575241320206564903_n.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Garanta</span> o seu
+
+                        <p>Look perfeito para sua melhor ocasião</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Destaque 2 -->
+                <div class="card-destaque">
+                    <img src="imagem/SaveClip.App_460698889_2882799365203371_4622851532533125746_n.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Garanta</span> o seu
+
+                        <p>Look perfeito para sua melhor ocasião</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Destaque 3 -->
+                <div class="card-destaque">
+                    <img src="imagem/SaveClip.App_467196545_911771567552469_2178473818010032171_n.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Garanta</span> o seu
+
+                        <p>Look perfeito para sua melhor ocasião</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Destaque 4 -->
+                <div class="card-destaque">
+                    <img src="imagem/img 1.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Garanta</span> o seu
+
+                        <p>Look perfeito para sua melhor ocasião</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Destaque 5 -->
+                <div class="card-destaque">
+                    <img src="imagem/5.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Garanta</span> o seu
+
+                        <p>Look perfeito para sua melhor ocasião</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Destaque 6 -->
+                <div class="card-destaque">
+                    <img src="imagem/6.jpg" alt="Futsal">
+
+                    <div>
+                        <span>Lookinho</span> Completo
+
+                        <p>Biquíni tamanho P e Calça tamanho único</p>
+
+                        <div class="data">
+                            <h3>69,99</h3>
+                            <span>109,99</span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+         <!-- RODAPÉ -->
+         <footer>
+            <div class="empresa">
+                <h1 class="logo">Dona de Mim</h1>
+
+                <p><span>Dona de Mim</span>Alto do jardim, Amontada - Ceará</p>
+
+                <p>Francisco Tomé do Amaral Neto &copy; Todos os direitos reservados 2025</p>
+            </div>
+
+            <div class="parceiros">
+                <h3>Nossos parceiros</h3>
+
+                <p>Nacional Gás</p>
+                <p>Turismo</p>
+                <p>Icaraizinho de Amontada</p>
+                <p>Lava-Jato Olavo</p>
+                <p>Tadeu das coxinhas</p>
+                <p>AmoVet</p>
+            </div>
+
+            <div class="empresaTec">
+                <h3>Solicite seu site aqui</h3>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Informe seu E-mail">
+                    <button>Enviar</button>
+                </div>
+
+                <hr>
+
+                <h3>Siga Nossas Redes Socias</h3>
+
+                <div class="rede-social">
+                    <a href="https://www.instagram.com/amaralneto18/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://wa.me/5588999140680" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                </div>
+            </div>
+         </footer>
+
+         <div class="rodape"></div>
+
+    <script src="js/script.js" defer></script>
+    <script src="js/dados-form.js" defer></script>
+</body>
+</html>
