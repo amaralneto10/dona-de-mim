@@ -2,7 +2,7 @@ import "./globals.css";
 import { CartProvider } from "../context/CartContext";
 
 export const metadata = {
-  title: "Poupe15",
+  title: "Poupe mais make - Icaraizinho",
   description: "Compre produtos com desconto pelo WhatsApp",
 };
 
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body suppressHydrationWarning>
         <CartProvider>
           {children}
         </CartProvider>

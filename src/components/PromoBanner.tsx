@@ -9,7 +9,7 @@ export default function PromoBanner() {
           </span>
 
           <h2 className="text-2xl md:text-3xl font-bold">
-            Economize até 15% no Poupe15
+            Economize até 10% na Poupe Icaraizinho
           </h2>
 
           <p className="text-white/90 max-w-xl">
