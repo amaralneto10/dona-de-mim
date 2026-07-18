@@ -2,7 +2,7 @@ import "./globals.css";
 import { CartProvider } from "../context/CartContext";
 
 export const metadata = {
-  title: "Poupe mais make - Icaraizinho",
+  title: "Doona de Mim",
   description: "Compre produtos com desconto pelo WhatsApp",
 };
 

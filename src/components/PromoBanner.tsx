@@ -9,7 +9,7 @@ export default function PromoBanner() {
           </span>
 
           <h2 className="text-2xl md:text-3xl font-bold">
-            Economize até 10% na Poupe Icaraizinho
+            Economize até 10% na Doona de Mim comprando pelo WhatsApp
           </h2>
 
           <p className="text-white/90 max-w-xl">

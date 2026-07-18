@@ -38,7 +38,7 @@ export default function ProductCard({ product }: Props) {
               price: product.price,
             })
           }
-          className="mt-auto bg-pink-500 text-white py-2 rounded-lg font-medium hover:bg-pink-600 transition"
+          className="mt-auto bg-primary text-white py-2 rounded-lg font-medium hover:opacity-90 transition"
         >
           Adicionar ao carrinho
         </button>

@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ec4899", // Rosa Poupe15
-        secondary: "#ffffff",
+        primary: "#ff6f61", // Coral praia
+        secondary: "#fff4e6", // Areia suave
+        accent: "#1f6f78", // Azul-esverdeado
+        brand: "#233447", // Azul-marinho
       },
     },
   },

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white text-gray-800;
+  @apply bg-secondary text-brand min-h-screen;
 }
 
 html {
