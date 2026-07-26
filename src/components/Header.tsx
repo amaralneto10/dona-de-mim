@@ -11,7 +11,7 @@ export default function Header() {
         {/* Logo + Nome */}
         <div className="flex items-center gap-3">
           <Image
-            src="/logo.PNG"
+            src="/logo1.PNG"
             alt="Doona de Mim Logo"
             width={42}
             height={42}
